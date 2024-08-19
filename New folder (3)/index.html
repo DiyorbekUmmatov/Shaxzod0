@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+</head>
+<body>
+ <!--
+// v0 by Vercel.
+// https://v0.dev/t/IN9DGjv71V7
+-->
+
+<style>:root{--background:0 0% 100%;--foreground:240 10% 3.9%;--card:0 0% 100%;--card-foreground:240 10% 3.9%;--popover:0 0% 100%;--popover-foreground:240 10% 3.9%;--primary:346.8 77.2% 49.8%;--primary-foreground:355.7 100% 99%;--secondary:240 4.8% 95.9%;--secondary-foreground:240 5.9% 10%;--muted:240 4.8% 95.9%;--muted-foreground:240 3.8% 45%;--accent:240 4.8% 95.9%;--accent-foreground:240 5.9% 10%;--destructive:0 72% 51%;--destructive-foreground:0 0% 98%;--border:240 5.9% 90%;--input:240 5.9% 90%;--ring:346.8 77.2% 49.8%;--chart-1:347 77% 50%;--chart-2:349 77% 62%;--chart-3:350 80% 72%;--chart-4:351 83% 82%;--chart-5:352 83% 91%;--radius:0.5rem;}img[src="/placeholder.svg"],img[src="/placeholder-user.jpg"]{filter:sepia(.3) hue-rotate(-60deg) saturate(.5) opacity(0.8) }</style>
+<style>h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif; --font-sans-serif: 'Inter'; }
+</style>
+<style>body { font-family: 'Inter', sans-serif; --font-sans-serif: 'Inter'; }
+</style>
+<div class="flex flex-col min-h-[100dvh]">
+  <section class="w-full py-12 md:py-24 lg:py-32 bg-[url('/placeholder.svg')] bg-cover bg-center">
+    <div class="container px-4 md:px-6 text-center space-y-6">
+      <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Fast Food Restaurant</div>
+      <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Delicious Meals, Served Fast</h1>
+      <p class="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+        Experience the best fast food in town, with fresh ingredients and quick service.
+      </p>
+      <a
+        href="#"
+        class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+      >
+        Order Now
+      </a>
+    </div>
+  </section>
+  <section class="w-full py-12 md:py-24 lg:py-32">
+    <div class="container px-4 md:px-6">
+      <div class="flex flex-col items-center justify-center space-y-4 text-center">
+        <div class="space-y-2">
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Menu</h2>
+          <p class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            Explore our delicious menu of burgers, fries, and more.
+          </p>
+        </div>
+      </div>
+      <div style="background-image: url(/1.jpg);" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
+        <div class="bg-background rounded-lg shadow-lg overflow-hidden">
+          <img
+            src="/uuu.webp"
+            alt="Burger"
+            width="400"
+            height="300"
+            class="w-full h-48 object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Classic Burger</h3>
+            <p class="text-muted-foreground">
+              Our signature burger with fresh beef, lettuce, tomato, and special sauce.
+            </p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="text-lg font-bold">$999</span>
+              <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-background rounded-lg shadow-lg overflow-hidden">
+          <img
+            src="/OIP.jpg"
+            alt="Fries"
+            width="400"
+            height="300"
+            class="w-full h-48 object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold">French Fries</h3>
+            <p class="text-muted-foreground">Crispy, golden-brown fries made from fresh potatoes.</p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="text-lg font-bold">$999</span>
+              <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-background rounded-lg shadow-lg overflow-hidden">
+          <img
+            src="/yy.jpg"
+            alt="Chicken Sandwich"
+            width="400"
+            height="300"
+            class="w-full h-48 object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Chicken Sandwich</h3>
+            <p class="text-muted-foreground">Juicy, breaded chicken breast with lettuce and mayo.</p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="text-lg font-bold">$999</span>
+              <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-background rounded-lg shadow-lg overflow-hidden">
+          <img
+            src="/"
+            alt="Milkshake"
+            width="400"
+            height="300"
+            class="w-full h-48 object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Chocolate Milkshake</h3>
+            <p class="text-muted-foreground">Rich and creamy chocolate milkshake made with real ice cream.</p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="text-lg font-bold">$999</span>
+              <button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 rounded-md px-3">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full py-12 md:py-24 lg:py-32 bg-muted">
+    <div class="container px-4 md:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-4">
+          <h2 class="text-3xl font-bold tracking-tighter md:text-4xl/tight">Visit Us</h2>
+          <p class="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            Come visit our restaurant located in the heart of the city.
+          </p>
+          <address class="not-italic text-muted-foreground">
+            <p>123 Main Street</p>
+            <p>Anytown, USA 12345</p>
+          </address>
+        </div>
+        <div>
+          <img
+            src="/placeholder.svg"
+            alt="Restaurant Location"
+            width="600"
+            height="400"
+            class="w-full h-full object-cover rounded-lg"
+            style="aspect-ratio: 600 / 400; object-fit: cover;"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-muted p-6 md:py-12 w-full">
+    <div class="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Company</h3>
+        <a href="#">About Us</a>
+        <a href="#">Our Team</a>
+        <a href="#">Careers</a>
+        <a href="#">News</a>
+      </div>
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Menu</h3>
+        <a href="#">Burgers</a>
+        <a href="#">Fries</a>
+        <a href="#">Sandwiches</a>
+        <a href="#">Drinks</a>
+      </div>
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Resources</h3>
+        <a href="#">Blog</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Legal</h3>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
